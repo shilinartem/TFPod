@@ -55,8 +55,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  s.source = { :http => "https://github.com/shilinartem/TFPod/releases/download/v#{s.version}/tensorflow.tar.gz" }
+  s.source = { :http => "https://github.com/shilinartem/TFPod/releases/download/#{s.version}/tensorflow.tar.gz" }
   s.preserve_paths = "include/**"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
